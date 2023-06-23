@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="jt_tbkr_log" directorySegmentName="seg_0" id="0F5228E4-12BB-2178-9B0A-AA26D8BB6D0B">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<schemaObject>D1FA5551-82A7-6795-F2FA-6D4456D24EDD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_rcv_svr" id="00CB4D20-CC2D-34F8-6469-2BD6030848AC">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_imp_finish" id="3BA20A09-B589-8284-C203-1A58A8CF660A">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_tbkr" id="3D3923F3-9E76-10C3-12A9-601D96067B67">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ty_req_quarter" id="42382847-629B-14B1-409A-3DC5D3A2FC43">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_imp_start" id="46D97A67-32A2-CB1F-435B-39183C64FCBF">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sq_tbkr_zip" id="510DEC8A-AC72-6DE4-F6CE-F8C9BC6D5327">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_rcv" id="585F7B36-3760-57BC-4DB4-B7477897E424">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sq_tbkr" id="7D0FAF85-7F73-0FD7-96A3-7E066D2BAE70">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<defaultValue>nextval(&apos;test.jt_tbkr_log_sq_tbkr_seq&apos;::regclass)</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="dt_insert" id="8A403738-4393-3B11-5CAB-58FB67461866">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<defaultValue>to_char(now(), &apos;YYYYMMDDHH24MISS&apos;::text)</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="cnt_tot" id="8E6BE6F7-7606-6925-3574-2F786439B462">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ty_req_data" id="94CC3BAD-9232-9090-CF66-D49813FAF146">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ty_exp_result" id="A6076C6A-0764-B4D5-6FD3-F8EF07F90095">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qt_req_term" id="A8899E48-7DD8-4D17-69E0-617B53979988">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ty_imp_result" id="C494506C-A580-D6A5-D90A-904A1A56F5D1">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_bank" id="D3B481DD-864C-B534-2C28-950F699BDBF2">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="yy_req_year" id="DB7C140C-A178-21F0-9172-5DA2072D47D0">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_modify" id="DEC0ECDB-D282-4949-B00F-495641643A2B">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ty_job" id="ED13D551-C155-8775-3F47-DF396256B287">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_imp_svr" id="F9672783-08EE-9377-81F8-DFC0E5C011B7">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="inx_jt_tbkr_log_id_tbkr" id="4A0B018D-C937-4A9B-A639-ABC4326DCB29">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="inx_jt_tbkr_log_sq_tbkr_zip" id="5B4A0288-2CE2-A6F2-E805-C37022179A81">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_jt_tbkr_log" id="547CBDEE-577A-9C53-51A0-7BB69A747591">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_jt_tbkr_log" id="033459AF-CF5D-705E-BBF7-43F453CEA1DA">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

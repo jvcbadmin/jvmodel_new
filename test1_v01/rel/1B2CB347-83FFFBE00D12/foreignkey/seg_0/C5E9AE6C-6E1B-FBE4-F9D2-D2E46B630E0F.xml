@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5E9AE6C-6E1B-FBE4-F9D2-D2E46B630E0F" containerWithKeyObject="ABE98A27-132D-7C99-B3FA-517DF9E311D6" localFKIndex="B0FB4C09-9A66-0913-539F-10BBDF429510" name="fk_jt_tbkr_files">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>fk_jt_tbkr_files</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<referredTableLongName>test.jt_tbkr_zip</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A92BFA9-0528-2F73-003E-70BE901BA86F</referredTableID>
+<keyObject>D85E575A-357A-56BB-7DF5-184B76DCF48C</keyObject>
+<referredKeyID>D85E575A-357A-56BB-7DF5-184B76DCF48C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sq_tbkr_zip</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

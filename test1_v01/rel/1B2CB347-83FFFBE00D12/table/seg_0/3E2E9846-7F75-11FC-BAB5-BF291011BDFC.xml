@@ -1,0 +1,293 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E2E9846-7F75-11FC-BAB5-BF291011BDFC" schemaObject="D1FA5551-82A7-6795-F2FA-6D4456D24EDD" name="jt_tdzr_files">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>jt_tdzr_files</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sq_tdzr_file" id="759C0FA6-FF37-97A1-7C05-2B612B1068A1">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>sq_tdzr_file</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<defaultValue>nextval(&apos;test.jt_tdzr_files_sq_tdzr_file_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sq_tdzr_zip" id="210D1EE9-551E-D4EB-E9E9-5CA54483BE1B">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>sq_tdzr_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22079F0B-F0D4-CDFE-B960-8229DD615F6E" referredColumn="055DB0D4-8671-DF06-F3E2-E4365D5730F9"/>
+</associations>
+</Column>
+<Column name="no_mc" id="DD6ACA52-9B58-88C2-C8AE-F01099EE8095">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>no_mc</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_com" id="2A0719A5-761F-AA90-2B69-E94FA6E2CCA6">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>cd_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gisu" id="9138E821-AF47-EB1F-4589-F646D78C65BA">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>gisu</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_biz" id="09D82170-7E80-DB85-CF61-1FF38416AECB">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>no_biz</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>&apos;X&apos;::character varying</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_identver_com" id="F603C5F4-ED2F-8512-3A61-46C0A70ABD25">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>no_identver_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="period" id="DF4498B4-6DFD-F467-1E45-A2BD5ECAE641">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>period</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<defaultValue>&apos;X&apos;::character varying</defaultValue>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_file" id="2B38C1A4-62BC-42D6-3502-C6C5393E7740">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>nm_file</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_table" id="56AB0568-8114-ABF3-A0DC-1E92A2846E39">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>nm_table</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_file" id="B632C767-360D-AF19-526F-803F0D38054F">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>ty_file</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_file2" id="4878DCDE-6696-946A-3DB1-628ED3BAC0BF">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>ty_file2</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_hash" id="AF021BAF-6202-F80F-7D10-84B6B1F0D899">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>str_hash</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_imp_result" id="1D4791AF-B33F-8F08-13F5-6313B8CDBE57">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>ty_imp_result</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_insert" id="BCBECF4A-943E-F515-6A59-C066BBDB6440">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzr_files</sourceObjSchema>
+<sourceObjName>dt_insert</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="316DB672-0762-E63F-7179-D651A246339C" name="pk_jt_tdzr_files">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>pk_jt_tdzr_files</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="759C0FA6-FF37-97A1-7C05-2B612B1068A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA343FBC-47EF-2900-8A35-7A32333E6691" name="inx_jt_tdzr_files_hash">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>inx_jt_tdzr_files_hash</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD6ACA52-9B58-88C2-C8AE-F01099EE8095"/>
+<colUsage columnID="2A0719A5-761F-AA90-2B69-E94FA6E2CCA6"/>
+<colUsage columnID="09D82170-7E80-DB85-CF61-1FF38416AECB"/>
+<colUsage columnID="9138E821-AF47-EB1F-4589-F646D78C65BA"/>
+<colUsage columnID="AF021BAF-6202-F80F-7D10-84B6B1F0D899"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A3B4016-D7FC-F52D-CA53-0F167EB57AAF" name="inx_jt_tdzr_files_sq_tdzr_zip">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>inx_jt_tdzr_files_sq_tdzr_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210D1EE9-551E-D4EB-E9E9-5CA54483BE1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4427B192-B853-0379-EFF4-E4566953DAB3" name="fk_jt_tdzr_files">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test1_v01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210D1EE9-551E-D4EB-E9E9-5CA54483BE1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
