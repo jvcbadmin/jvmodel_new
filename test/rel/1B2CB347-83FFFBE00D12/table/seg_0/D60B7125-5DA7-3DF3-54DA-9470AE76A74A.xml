@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D60B7125-5DA7-3DF3-54DA-9470AE76A74A" schemaObject="D1FA5551-82A7-6795-F2FA-6D4456D24EDD" name="testt2">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>testt2</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_mc" id="C3AC28FA-EB85-FF35-C577-0BEF5C1FF7AD">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>testt2</sourceObjSchema>
+<sourceObjName>no_mc</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_com" id="DAB4DC35-C832-8DD5-1C34-FCF2DFDB146E">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>testt2</sourceObjSchema>
+<sourceObjName>cd_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_biz" id="59CBA79E-C110-5F59-FF9F-D82A57E7C768">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>testt2</sourceObjSchema>
+<sourceObjName>no_biz</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gisu" id="B4943A94-6EFB-166D-85D0-FAA8FDF75DD8">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>testt2</sourceObjSchema>
+<sourceObjName>gisu</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="yn_insert" id="4FA0E4C9-3953-B0DD-F162-6F2438DA3C03">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>testt2</sourceObjSchema>
+<sourceObjName>yn_insert</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

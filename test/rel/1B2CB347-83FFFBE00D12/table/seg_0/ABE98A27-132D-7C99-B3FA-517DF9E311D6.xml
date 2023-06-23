@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABE98A27-132D-7C99-B3FA-517DF9E311D6" schemaObject="D1FA5551-82A7-6795-F2FA-6D4456D24EDD" name="jt_tbkr_files">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>jt_tbkr_files</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sq_tbkr_file" id="01D19AD7-9222-D551-EFF5-D58F46755843">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_files</sourceObjSchema>
+<sourceObjName>sq_tbkr_file</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<defaultValue>nextval(&apos;test.jt_tbkr_files_sq_tbkr_file_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sq_tbkr_zip" id="8E2E6E4A-C0DE-3DEA-528C-C31FF9682873">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_files</sourceObjSchema>
+<sourceObjName>sq_tbkr_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5E9AE6C-6E1B-FBE4-F9D2-D2E46B630E0F" referredColumn="87C19D34-32FF-718F-9FA0-816BD3AE732D"/>
+</associations>
+</Column>
+<Column name="nm_file" id="731758D2-6B7C-C1F1-DCB7-F59B1BC2E39D">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_files</sourceObjSchema>
+<sourceObjName>nm_file</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_table" id="E6CE9961-B334-03B3-90A4-035D20F41833">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_files</sourceObjSchema>
+<sourceObjName>nm_table</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_file" id="51AB686D-2D64-3B67-870D-643EE0BFC789">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_files</sourceObjSchema>
+<sourceObjName>ty_file</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_file2" id="6D67F2AA-C7A0-948A-1F51-77CFE52314A3">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_files</sourceObjSchema>
+<sourceObjName>ty_file2</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_hash" id="034A7774-16E5-B717-F018-41D777CDA09D">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_files</sourceObjSchema>
+<sourceObjName>str_hash</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_imp_result" id="CD34DF7E-7011-F1E1-7A3F-B6125456B13E">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_files</sourceObjSchema>
+<sourceObjName>ty_imp_result</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_insert" id="B3AAD543-7325-B2DD-162C-4F77F4C68DEC">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_files</sourceObjSchema>
+<sourceObjName>dt_insert</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2574B2A-82C4-43CF-A19F-A23090AC2F28" name="pk_jt_tbkr_files">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>pk_jt_tbkr_files</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D19AD7-9222-D551-EFF5-D58F46755843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46EF1D08-1940-9F63-5134-B53D533E14F5" name="inx_jt_tbkr_files_hash">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>inx_jt_tbkr_files_hash</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6CE9961-B334-03B3-90A4-035D20F41833"/>
+<colUsage columnID="034A7774-16E5-B717-F018-41D777CDA09D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C7E1B96-CFCC-CB62-C126-01375D4F024B" name="inx_jt_tbkr_files_sq_zip">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>inx_jt_tbkr_files_sq_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E2E6E4A-C0DE-3DEA-528C-C31FF9682873"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0FB4C09-9A66-0913-539F-10BBDF429510" name="fk_jt_tbkr_files">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E2E6E4A-C0DE-3DEA-528C-C31FF9682873"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

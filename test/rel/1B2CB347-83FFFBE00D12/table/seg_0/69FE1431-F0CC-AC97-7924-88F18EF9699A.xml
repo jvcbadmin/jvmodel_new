@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69FE1431-F0CC-AC97-7924-88F18EF9699A" schemaObject="D1FA5551-82A7-6795-F2FA-6D4456D24EDD" name="jt_key_data">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>jt_key_data</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[사업자번호채번테이블]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="key_data" id="35E9ADAE-CBBC-5A8B-5BA8-DF54E98A6E47">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_key_data</sourceObjSchema>
+<sourceObjName>key_data</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[키값채번시퀀스]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<defaultValue>nextval(&apos;test.jt_key_data_key_data_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_biz" id="F7F2A285-FE8B-77C2-057D-8C8301243B90">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_key_data</sourceObjSchema>
+<sourceObjName>no_biz</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[사업자번호]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_corpor" id="ACA3908B-56BB-BC3A-601C-1363D48F049E">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_key_data</sourceObjSchema>
+<sourceObjName>no_corpor</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[법인번호]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="da_ceobirth" id="C8F26FB7-0CCE-1249-4B79-F1BA75DE5C90">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_key_data</sourceObjSchema>
+<sourceObjName>da_ceobirth</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[대표자생일]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_insert" id="DA6FB9D1-4355-9723-5431-EAA3415F493B">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_key_data</sourceObjSchema>
+<sourceObjName>dt_insert</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[작성일시]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<defaultValue>to_char(now(), &apos;YYYYMMDDHH24MISS&apos;::text)</defaultValue>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_modify" id="0816A9C2-1D0A-DE3A-E801-A08A50748BAE">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_key_data</sourceObjSchema>
+<sourceObjName>dt_modify</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[수정일시]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9FCC7B3-965F-66E1-096E-BE86D73D04C3" name="jt_key_data_pkey">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>jt_key_data_pkey</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35E9ADAE-CBBC-5A8B-5BA8-DF54E98A6E47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30E403AB-A113-D70D-8B5D-D06C69EBD954" name="inx_jt_key_data_hash">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>inx_jt_key_data_hash</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F2A285-FE8B-77C2-057D-8C8301243B90"/>
+<colUsage columnID="ACA3908B-56BB-BC3A-601C-1363D48F049E"/>
+<colUsage columnID="C8F26FB7-0CCE-1249-4B79-F1BA75DE5C90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D48A058-3365-A4C1-DB03-49F214E5D906" name="inx_jt_key_data_no_corpor">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>inx_jt_key_data_no_corpor</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACA3908B-56BB-BC3A-601C-1363D48F049E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

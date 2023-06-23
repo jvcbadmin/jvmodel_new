@@ -1,0 +1,299 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4940028D-DF29-0E0D-42EC-14B0995572C1" schemaObject="D1FA5551-82A7-6795-F2FA-6D4456D24EDD" name="jt_tdzs_log">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>jt_tdzs_log</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[비즈온요청_전문테이블]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sq_tdzs" id="1DA1D7BE-A59A-469D-943D-0ED24E59CE88">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>sq_tdzs</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[비즈온요청전문시퀀스]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<defaultValue>nextval(&apos;test.jt_tdzs_log_sq_tdzs_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tdzs" id="F6014D7A-7F07-292E-D802-5BCBC98D870E">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>id_tdzs</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[요청전문ID]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_snd" id="9CE42590-0C6F-98A5-C586-72CB19A722C1">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>dt_snd</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[요청일시]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dm_close" id="92680B5F-AEF4-4EB6-D38E-D0C97877229B">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>dm_close</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[마감년월]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_form" id="C7F9EE4E-EA7C-1AB3-6CB4-CC9DF6A839BA">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>id_form</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[서식ID]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_req_data" id="73656055-7247-3BD6-83F5-8C5782B0C19D">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>ty_req_data</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[데이터요청구분]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnt_tot_tdzs" id="9965772A-DAF1-4C3E-532D-10F14E629FD5">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>cnt_tot_tdzs</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[요청전체수]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnt_tot_tdzr" id="BD86DCFB-3A08-8D5C-AA8C-87297FE98128">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>cnt_tot_tdzr</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[응답전체수]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_status" id="8F0AC70B-4818-5E64-D607-B8C2FAAD0C51">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>ty_status</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[상태값]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_job" id="BD23A88C-2CDE-2097-6F93-E71F0B7EEFC6">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>ty_job</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[요청타입(B:배치,R:실시간)]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sq_tbkr" id="96EA8145-8D03-6740-D439-D5387C17840A">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>sq_tbkr</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[금융기관수신전문시퀀스]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4C0CCDF-254A-5F99-7A76-F5A229656BAB" referredColumn="7D0FAF85-7F73-0FD7-96A3-7E066D2BAE70"/>
+</associations>
+</Column>
+<Column name="dt_start" id="F79443E8-0962-F914-9AAE-C52EAAB5B6B1">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>dt_start</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[파일처리시작시간]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_finish" id="0C99196D-096D-CBAD-9FD2-403A0B88E533">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>dt_finish</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[파일처리완료시간]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_insert" id="BF313000-11D5-B78B-817F-89A42B2A7370">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>dt_insert</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[작성일시]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<defaultValue>to_char(now(), &apos;YYYYMMDDHH24MISS&apos;::text)</defaultValue>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_modify" id="7EA1E4C1-9609-AD55-5F74-99B8E4D9EBA9">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tdzs_log</sourceObjSchema>
+<sourceObjName>dt_modify</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[수정일시]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5271142-6E41-08FD-3EF6-FC7AAFDA8BDC" name="pk_jt_tdzs_log">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>pk_jt_tdzs_log</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DA1D7BE-A59A-469D-943D-0ED24E59CE88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A15B0E8-048D-9400-FEB7-FE02A53CCA2D" name="inx_jt_tdzs_log_sq_tbkr">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>inx_jt_tdzs_log_sq_tbkr</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96EA8145-8D03-6740-D439-D5387C17840A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BD82806-5D6E-E32F-0027-795E40CB0989" name="fk_jt_tdzs_log">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96EA8145-8D03-6740-D439-D5387C17840A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

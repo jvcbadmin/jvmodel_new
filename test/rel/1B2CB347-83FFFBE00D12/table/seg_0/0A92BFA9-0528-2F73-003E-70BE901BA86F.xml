@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A92BFA9-0528-2F73-003E-70BE901BA86F" schemaObject="D1FA5551-82A7-6795-F2FA-6D4456D24EDD" name="jt_tbkr_zip">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>jt_tbkr_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sq_tbkr_zip" id="87C19D34-32FF-718F-9FA0-816BD3AE732D">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>sq_tbkr_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<defaultValue>nextval(&apos;test.jt_tbkr_zip_sq_tbkr_zip_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_zip" id="0422C6AA-7688-608B-ACFB-7E6CC95E1994">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>nm_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_bank" id="345D04AA-DD33-20EB-8D65-55ED1DEFB169">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>cd_bank</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_rcv_svr" id="6131C4B8-AAEE-BF5A-C6D0-F9854C144B03">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>id_rcv_svr</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_imp_svr" id="2C109125-A50B-5016-2058-DFCC92721142">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>id_imp_svr</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_imp_start" id="41D93AED-6761-8A09-C2EE-25D0D079D5BD">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>dt_imp_start</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_imp_finish" id="0DF4C5E7-A4D5-C150-263A-A1051755305F">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>dt_imp_finish</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_imp_result" id="59A79ECC-9BBE-B54C-76CC-502C6A2650CC">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>ty_imp_result</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_insert" id="3DE08997-60C3-CEDA-1841-DA84B7C45127">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>dt_insert</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_src" id="FA7E42BF-7DD8-B7CE-CAC8-0F04BA0CAC76">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbkr_zip</sourceObjSchema>
+<sourceObjName>ty_src</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D85E575A-357A-56BB-7DF5-184B76DCF48C" name="pk_jt_tbkr_zip">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>pk_jt_tbkr_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87C19D34-32FF-718F-9FA0-816BD3AE732D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD5B67F2-1D02-BB49-E776-0F4FF97C6078" name="inx_jt_tbkr_zip_nm">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>inx_jt_tbkr_zip_nm</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0422C6AA-7688-608B-ACFB-7E6CC95E1994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
