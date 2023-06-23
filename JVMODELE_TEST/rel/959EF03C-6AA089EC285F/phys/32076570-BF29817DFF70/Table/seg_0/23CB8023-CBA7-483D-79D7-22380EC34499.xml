@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ft_gisu" directorySegmentName="seg_0" id="23CB8023-CBA7-483D-79D7-22380EC34499">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<schemaObject>5FBA0976-07CE-939C-2861-D01CCE4551DF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="da_accend" id="417248CC-E0D7-1FD7-032A-5878AC57F824">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_mc" id="4B6954BE-3C9B-E5DA-48CF-0CBCB07626FB">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_biz" id="7B1564A3-F235-518B-B9FF-E85F7F0EAD5E">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<defaultValue>&apos;X&apos;::character varying</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="yn_fullyear" id="7F492482-096F-4F08-504A-D04FE321DF37">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_com" id="86A5A44F-C19B-93F5-3ABA-B785474034D6">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="da_accbegin" id="A3E97899-409C-6C12-04B7-C632809C53AA">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gisu" id="C59CED46-AAB9-B5E2-ACA7-D7A464E3FDFD">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_ft_gisu" id="BC478C0D-6049-DD4C-04C9-AA7BCE10B3EB">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

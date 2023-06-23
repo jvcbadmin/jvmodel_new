@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="JVMODELE_TEST" id="D5910AF3-7C3E-92FA-209E-089C6C7F040A" version="3.5">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:12:06 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D5910AF3-7C3E-92FA-209E-089C6C7F040A</designId>
+</OSDM_Design>

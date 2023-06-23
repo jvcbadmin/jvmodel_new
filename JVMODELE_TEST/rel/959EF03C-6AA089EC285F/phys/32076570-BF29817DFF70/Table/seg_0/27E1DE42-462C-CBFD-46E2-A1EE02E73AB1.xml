@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ft_rcv_files" directorySegmentName="seg_0" id="27E1DE42-462C-CBFD-46E2-A1EE02E73AB1">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<schemaObject>5FBA0976-07CE-939C-2861-D01CCE4551DF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="sq_file" id="4224A489-3D64-4AFF-5DCA-228F1CBE9BD7">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<defaultValue>nextval(&apos;dtsch.ft_rcv_files_sq_file_seq&apos;::regclass)</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="dt_insert" id="432D3FA4-4F80-1D58-132D-00CD54601F12">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_table" id="48E096BD-2B59-DF40-66F1-7B30EACE1096">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_biz" id="4F716CC6-820B-9206-DDA0-65E44FCFAC5C">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<defaultValue>&apos;X&apos;::character varying</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ty_imp_result" id="7258C04B-9F9D-1B60-3DED-2C66C467FA6E">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_mc" id="7CA40910-D257-9BCE-EA13-EA353CE2ABD7">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ty_file" id="8106C92C-90EA-8989-1A9D-7FE596227D85">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_com" id="8CBC20CB-7504-12AD-2AD6-398ABF43C2A7">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="str_hash" id="94190DE5-7734-9325-1FE0-BE15E50E5E6A">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gisu" id="9F3216E2-D8D8-EF9D-00B9-0C12C97416B8">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="nm_file" id="B215B7F0-CEC6-700A-59F3-EEB7D91F4FE9">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="period" id="B7DD5F1A-B8B4-88C9-2D26-990F9B01C527">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<defaultValue>&apos;X&apos;::character varying</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="no_identver_com" id="C60931BA-2898-3C09-62AD-0ACE431E4909">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ty_file2" id="D2116AA4-120D-CB88-2A63-8877EDEDA815">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sq_zip" id="F950BF04-4A1B-2302-AB80-249C6CF19752">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="inx_ft_rcv_files_sq_zip" id="545409F8-3742-90DA-9793-E425E910B686">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="inx_ft_rcv_files_hash" id="ADCE8F11-7D09-7943-5DBA-2B6D2A17B27B">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_ft_rcv_files" id="E28E6EF6-70A1-51A2-5C04-B44C6FACD3BC">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

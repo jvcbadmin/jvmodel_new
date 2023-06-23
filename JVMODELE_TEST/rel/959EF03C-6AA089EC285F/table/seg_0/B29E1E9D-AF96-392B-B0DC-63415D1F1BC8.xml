@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B29E1E9D-AF96-392B-B0DC-63415D1F1BC8" schemaObject="5FBA0976-07CE-939C-2861-D01CCE4551DF" name="ft_no_com">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>dtsch</sourceObjSchema>
+<sourceObjName>ft_no_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[회사코드]]></commentInRDBMS>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_com" id="7A2730C7-794D-955D-C13B-B6533D83FC23">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_no_com</sourceObjSchema>
+<sourceObjName>no_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>nextval(&apos;dtsch.ft_no_com_no_com_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_mc" id="498479C0-089C-F7AC-01D1-7E8A5188AB96">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_no_com</sourceObjSchema>
+<sourceObjName>no_mc</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[PC고유번호]]></commentInRDBMS>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_com" id="96666BFE-5DC0-5776-FB4A-7F33326B853B">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_no_com</sourceObjSchema>
+<sourceObjName>cd_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[회사코드]]></commentInRDBMS>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_biz" id="7E3F5F46-1F34-BD7E-F114-CD47B737244E">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_no_com</sourceObjSchema>
+<sourceObjName>no_biz</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[사업자번호]]></commentInRDBMS>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_src" id="2E8D1DA2-CD89-3104-3214-16E10DB4B185">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_no_com</sourceObjSchema>
+<sourceObjName>ty_src</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED8656DE-608F-AD00-C10C-04C075429576" name="pk_ft_no_com">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>dtsch</sourceObjSchema>
+<sourceObjName>pk_ft_no_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A2730C7-794D-955D-C13B-B6533D83FC23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25156B53-1926-69A5-908C-D8118983E2FB" name="inx_ft_no_com_nobiz">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>dtsch</sourceObjSchema>
+<sourceObjName>inx_ft_no_com_nobiz</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E3F5F46-1F34-BD7E-F114-CD47B737244E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

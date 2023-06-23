@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23CB8023-CBA7-483D-79D7-22380EC34499" schemaObject="5FBA0976-07CE-939C-2861-D01CCE4551DF" name="ft_gisu">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>dtsch</sourceObjSchema>
+<sourceObjName>ft_gisu</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[기수]]></commentInRDBMS>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_mc" id="4B6954BE-3C9B-E5DA-48CF-0CBCB07626FB">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_gisu</sourceObjSchema>
+<sourceObjName>no_mc</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_com" id="86A5A44F-C19B-93F5-3ABA-B785474034D6">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_gisu</sourceObjSchema>
+<sourceObjName>cd_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_biz" id="7B1564A3-F235-518B-B9FF-E85F7F0EAD5E">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_gisu</sourceObjSchema>
+<sourceObjName>no_biz</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>&apos;X&apos;::character varying</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gisu" id="C59CED46-AAB9-B5E2-ACA7-D7A464E3FDFD">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_gisu</sourceObjSchema>
+<sourceObjName>gisu</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="da_accbegin" id="A3E97899-409C-6C12-04B7-C632809C53AA">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_gisu</sourceObjSchema>
+<sourceObjName>da_accbegin</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="da_accend" id="417248CC-E0D7-1FD7-032A-5878AC57F824">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_gisu</sourceObjSchema>
+<sourceObjName>da_accend</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="yn_fullyear" id="7F492482-096F-4F08-504A-D04FE321DF37">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_gisu</sourceObjSchema>
+<sourceObjName>yn_fullyear</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC478C0D-6049-DD4C-04C9-AA7BCE10B3EB" name="pk_ft_gisu">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>dtsch</sourceObjSchema>
+<sourceObjName>pk_ft_gisu</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B6954BE-3C9B-E5DA-48CF-0CBCB07626FB"/>
+<colUsage columnID="86A5A44F-C19B-93F5-3ABA-B785474034D6"/>
+<colUsage columnID="7B1564A3-F235-518B-B9FF-E85F7F0EAD5E"/>
+<colUsage columnID="C59CED46-AAB9-B5E2-ACA7-D7A464E3FDFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

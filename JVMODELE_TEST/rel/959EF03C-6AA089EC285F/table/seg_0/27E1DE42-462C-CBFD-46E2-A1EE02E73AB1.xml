@@ -1,0 +1,284 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27E1DE42-462C-CBFD-46E2-A1EE02E73AB1" schemaObject="5FBA0976-07CE-939C-2861-D01CCE4551DF" name="ft_rcv_files">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>dtsch</sourceObjSchema>
+<sourceObjName>ft_rcv_files</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[수신파일]]></commentInRDBMS>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sq_file" id="4224A489-3D64-4AFF-5DCA-228F1CBE9BD7">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>sq_file</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<defaultValue>nextval(&apos;dtsch.ft_rcv_files_sq_file_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sq_zip" id="F950BF04-4A1B-2302-AB80-249C6CF19752">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>sq_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_mc" id="7CA40910-D257-9BCE-EA13-EA353CE2ABD7">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>no_mc</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[PC고유번호]]></commentInRDBMS>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_com" id="8CBC20CB-7504-12AD-2AD6-398ABF43C2A7">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>cd_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[회사코드]]></commentInRDBMS>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gisu" id="9F3216E2-D8D8-EF9D-00B9-0C12C97416B8">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>gisu</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_biz" id="4F716CC6-820B-9206-DDA0-65E44FCFAC5C">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>no_biz</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[사업자번호]]></commentInRDBMS>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>&apos;X&apos;::character varying</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_identver_com" id="C60931BA-2898-3C09-62AD-0ACE431E4909">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>no_identver_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="period" id="B7DD5F1A-B8B4-88C9-2D26-990F9B01C527">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>period</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<defaultValue>&apos;X&apos;::character varying</defaultValue>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_file" id="B215B7F0-CEC6-700A-59F3-EEB7D91F4FE9">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>nm_file</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_table" id="48E096BD-2B59-DF40-66F1-7B30EACE1096">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>nm_table</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_file" id="8106C92C-90EA-8989-1A9D-7FE596227D85">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>ty_file</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_file2" id="D2116AA4-120D-CB88-2A63-8877EDEDA815">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>ty_file2</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_hash" id="94190DE5-7734-9325-1FE0-BE15E50E5E6A">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>str_hash</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ty_imp_result" id="7258C04B-9F9D-1B60-3DED-2C66C467FA6E">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>ty_imp_result</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_insert" id="432D3FA4-4F80-1D58-132D-00CD54601F12">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>ft_rcv_files</sourceObjSchema>
+<sourceObjName>dt_insert</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E28E6EF6-70A1-51A2-5C04-B44C6FACD3BC" name="pk_ft_rcv_files">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>dtsch</sourceObjSchema>
+<sourceObjName>pk_ft_rcv_files</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4224A489-3D64-4AFF-5DCA-228F1CBE9BD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADCE8F11-7D09-7943-5DBA-2B6D2A17B27B" name="inx_ft_rcv_files_hash">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>dtsch</sourceObjSchema>
+<sourceObjName>inx_ft_rcv_files_hash</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CA40910-D257-9BCE-EA13-EA353CE2ABD7"/>
+<colUsage columnID="8CBC20CB-7504-12AD-2AD6-398ABF43C2A7"/>
+<colUsage columnID="4F716CC6-820B-9206-DDA0-65E44FCFAC5C"/>
+<colUsage columnID="9F3216E2-D8D8-EF9D-00B9-0C12C97416B8"/>
+<colUsage columnID="94190DE5-7734-9325-1FE0-BE15E50E5E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="545409F8-3742-90DA-9793-E425E910B686" name="inx_ft_rcv_files_sq_zip">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>dtsch</sourceObjSchema>
+<sourceObjName>inx_ft_rcv_files_sq_zip</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 05:23:22 UTC</createdTime>
+<ownerDesignName>JVMODELE_TEST</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F950BF04-4A1B-2302-AB80-249C6CF19752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
