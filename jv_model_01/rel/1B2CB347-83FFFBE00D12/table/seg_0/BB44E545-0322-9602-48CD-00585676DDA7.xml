@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB44E545-0322-9602-48CD-00585676DDA7" schemaObject="D1FA5551-82A7-6795-F2FA-6D4456D24EDD" name="jt_tbks_log">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>jt_tbks_log</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[금융기관송신_전문테이블]]></commentInRDBMS>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sq_tbks" id="57F7C0FA-535D-4F7B-D745-FB041777843D">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbks_log</sourceObjSchema>
+<sourceObjName>sq_tbks</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[금융기관송신전문시퀀스]]></commentInRDBMS>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<defaultValue>nextval(&apos;test.jt_tbks_log_sq_tbks_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tbks" id="54A2B248-2646-F06F-C203-216DF59239B3">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbks_log</sourceObjSchema>
+<sourceObjName>id_tbks</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[송신전문ID]]></commentInRDBMS>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_snd" id="CD8E820C-D457-1BCE-F4DF-97D5991B8834">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbks_log</sourceObjSchema>
+<sourceObjName>dt_snd</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[송신일시]]></commentInRDBMS>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sq_tbkr" id="0E46AC85-F7C9-4FEE-766B-2B047C6B7FCF">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbks_log</sourceObjSchema>
+<sourceObjName>sq_tbkr</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[금융기관수신전문시퀀스]]></commentInRDBMS>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD329107-2D3C-65C2-CC45-A26868F3595B" referredColumn="7D0FAF85-7F73-0FD7-96A3-7E066D2BAE70"/>
+</associations>
+</Column>
+<Column name="dt_insert" id="B0C56649-533A-07C0-AA91-2F517B00EDA8">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbks_log</sourceObjSchema>
+<sourceObjName>dt_insert</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[작성일시]]></commentInRDBMS>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<defaultValue>to_char(now(), &apos;YYYYMMDDHH24MISS&apos;::text)</defaultValue>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_modify" id="E415BA89-7167-A51D-576A-5DE14D707A8E">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tbks_log</sourceObjSchema>
+<sourceObjName>dt_modify</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[수정일시]]></commentInRDBMS>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AEB2D96-5A71-3A49-F9A9-61AD10A37B88" name="pk_jt_tbks_log">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>pk_jt_tbks_log</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57F7C0FA-535D-4F7B-D745-FB041777843D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9182438B-E106-E812-B82F-611C9EBF54E3" name="inx_jt_tbks_log_sq_tbkr">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>inx_jt_tbks_log_sq_tbkr</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E46AC85-F7C9-4FEE-766B-2B047C6B7FCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CB7A95D-E12B-EA81-7C78-1A1AA1A9AA3E" name="fk_jt_tbks_log">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E46AC85-F7C9-4FEE-766B-2B047C6B7FCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

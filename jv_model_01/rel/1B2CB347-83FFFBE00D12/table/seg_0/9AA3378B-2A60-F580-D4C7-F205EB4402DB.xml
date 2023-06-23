@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AA3378B-2A60-F580-D4C7-F205EB4402DB" schemaObject="D1FA5551-82A7-6795-F2FA-6D4456D24EDD" name="jt_tjv_tlog">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>jt_tjv_tlog</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="table_name" id="299A7B09-1A72-3C07-22F2-2CED781FC7ED">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>table_name</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_mc" id="FAC86D79-9729-FB1C-E882-84708FBE7AEF">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>no_mc</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_com" id="89E7BEEE-AFD9-D890-5B96-8A0CCA4AF26C">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>cd_com</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gisu" id="1F1E762E-9A48-20C6-5E6C-CB8C24102CF5">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>gisu</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_biz" id="A464A8FE-40BE-1A31-45DB-65196AC70190">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>no_biz</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ym_close" id="5037A51B-E3A6-E77A-47E9-360A318E7C44">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>ym_close</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnt" id="1A199BD1-E0F2-9603-30A5-CD54FE6377DB">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>cnt</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_lastmodify" id="5A778E92-54A3-C2B5-50D5-489A3A96AF6E">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>dt_lastmodify</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data_insert" id="564A9BF1-CED9-C340-058B-10E255A64C0F">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>dt_data_insert</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="v_dt_data_modify" id="A839BA53-A3A4-221B-1827-324053069736">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>jt_tjv_tlog</sourceObjSchema>
+<sourceObjName>v_dt_data_modify</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D6A3679-6D4C-486B-CFA4-E7BBFDA6148B" name="pk_jt_tjv_tlog">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>pk_jt_tjv_tlog</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:06 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="299A7B09-1A72-3C07-22F2-2CED781FC7ED"/>
+<colUsage columnID="FAC86D79-9729-FB1C-E882-84708FBE7AEF"/>
+<colUsage columnID="89E7BEEE-AFD9-D890-5B96-8A0CCA4AF26C"/>
+<colUsage columnID="1F1E762E-9A48-20C6-5E6C-CB8C24102CF5"/>
+<colUsage columnID="A464A8FE-40BE-1A31-45DB-65196AC70190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A481082-7CAE-EF6F-E228-DEA8BF8103A4" containerWithKeyObject="A51FAB38-37D6-062F-A2F0-6B687D564A0F" localFKIndex="C27216F6-CE4D-D1FA-EF65-ACFF80E0ACAD" name="fk_imsi1">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>fk_imsi1</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<referredTableLongName>test.jt_tbks_detail</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B339A866-CC74-5599-209C-52ABFB34C435</referredTableID>
+<keyObject>4BF87913-4E67-6F95-E82A-9C17D9FDA463</keyObject>
+<referredKeyID>4BF87913-4E67-6F95-E82A-9C17D9FDA463</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sq_tbks_detail</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

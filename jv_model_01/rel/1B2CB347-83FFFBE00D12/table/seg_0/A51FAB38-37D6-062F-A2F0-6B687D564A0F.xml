@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A51FAB38-37D6-062F-A2F0-6B687D564A0F" schemaObject="D1FA5551-82A7-6795-F2FA-6D4456D24EDD" name="imsi">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>imsi</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:04 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sq_tdzr_detail" id="5F27C30C-AA7F-15EB-9D8C-C53F2F413AAE">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>imsi</sourceObjSchema>
+<sourceObjName>sq_tdzr_detail</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:04 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<defaultValue>nextval(&apos;test.imsi_sq_tdzr_detail_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60236828-AE01-AC36-58AA-0C213191EA7C" referredColumn="A4A28D6A-3AC4-D48B-891D-33B68E137D04"/>
+</associations>
+</Column>
+<Column name="sq_tbks_detail" id="659409C7-FA62-30A7-F448-7268A08FEF22">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>imsi</sourceObjSchema>
+<sourceObjName>sq_tbks_detail</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:04 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<defaultValue>nextval(&apos;test.imsi_sq_tbks_detail_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A481082-7CAE-EF6F-E228-DEA8BF8103A4" referredColumn="54B45984-7C6F-A6A9-A75D-2B19F8AF5F33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="738275C2-4B45-BF9F-A155-C65038A576FC" name="jt_imsi">
+<sourceConnName>cbtrdb</sourceConnName>
+<sourceObjSchema>test</sourceObjSchema>
+<sourceObjName>jt_imsi</sourceObjName>
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:04 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F27C30C-AA7F-15EB-9D8C-C53F2F413AAE"/>
+<colUsage columnID="659409C7-FA62-30A7-F448-7268A08FEF22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C27216F6-CE4D-D1FA-EF65-ACFF80E0ACAD" name="fk_imsi1">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="659409C7-FA62-30A7-F448-7268A08FEF22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DAD77EF-6F14-53CC-1B75-C36E9BF0FE73" name="fk_imsi">
+<createdBy>jochoi</createdBy>
+<createdTime>2023-06-23 03:36:07 UTC</createdTime>
+<ownerDesignName>jv_model_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F27C30C-AA7F-15EB-9D8C-C53F2F413AAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
